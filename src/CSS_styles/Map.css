@@ -1,0 +1,23 @@
+.leaflet-container {
+  width: 80vw; /* Ajusta el ancho del mapa a un 80% del ancho de la ventana */
+  height: 100vh; /* Ajusta la altura del mapa */
+  max-width: 1200px; /* Establece un ancho máximo para limitar el tamaño en pantallas grandes */
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+}
+
+.map-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.province-selector {
+  margin-right: 20px;
+  padding: 10px;
+  max-width: 200px;
+}
+
+.province-selector select {
+  width: 100%;
+  padding: 8px;
+  font-size: 1rem;
+}

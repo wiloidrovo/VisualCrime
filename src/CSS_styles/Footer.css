@@ -1,0 +1,173 @@
+.dk-footer {
+  padding: 75px 0 0;
+  background-color: #151414;
+  position: relative;
+  color: #ccc;
+}
+
+.dk-footer-box-info {
+  position: relative;
+  background: #202020;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px; /* Bordes redondeados */
+  display: flex;
+  flex-direction: column; /* Alinear en columna */
+  align-items: center; /* Centrar contenido */
+  text-align: center; /* Centrar texto */
+}
+
+.footer-logo img {
+  max-width: 120px;
+  margin-bottom: 15px;
+}
+
+.footer-info-text {
+  margin: 20px 0;
+  color: #ccc;
+  font-size: 16px;
+}
+
+.footer-social-link h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+
+.footer-social-link ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 10px;
+  justify-content: center; /* Centrar íconos horizontalmente */
+}
+
+.footer-social-link ul li a {
+  display: block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 50px;
+  font-size: 18px;
+  color: #fff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Colores específicos para cada red social */
+.footer-social-link ul li a.facebook {
+  background-color: #3b5998; /* Facebook blue */
+}
+
+.footer-social-link ul li a.twitter {
+  background-color: #55acee; /* Twitter blue */
+}
+
+.footer-social-link ul li a.gmail {
+  background-color: #d14836; /* Gmail red */
+}
+
+.footer-social-link ul li a.linkedin {
+  background-color: #0077b5; /* LinkedIn blue */
+}
+
+.footer-social-link ul li a.instagram {
+  background-color: #e4405f; /* Instagram pink */
+}
+
+/* Hover efecto */
+.footer-social-link ul li a:hover {
+  background-color: #2e2e2e; /* Fondo oscuro */
+  color: #fff;
+}
+
+.footer-widget h3 {
+  color: #fff;
+  font-size: 18px;
+  margin-bottom: 15px;
+  display: inline-block;
+  padding-bottom: 5px;
+}
+
+.footer-widget ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-widget ul li {
+  margin-bottom: 10px;
+}
+
+.footer-widget ul li a {
+  color: #878787;
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.footer-widget ul li a:hover {
+  color: #007bff;
+}
+
+/* Barra de animación */
+.animate-border {
+  position: relative;
+  display: block;
+  width: 115px;
+  height: 3px;
+  background: #ca444a;
+}
+
+.animate-border:after {
+  position: absolute;
+  content: "";
+  width: 35px;
+  height: 3px;
+  left: 0;
+  bottom: 0;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  animation: animborder 2s linear infinite;
+}
+
+@keyframes animborder {
+  0% {
+    transform: translateX(0px);
+  }
+  100% {
+    transform: translateX(115px);
+  }
+}
+
+.contact-us {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.contact-icon i {
+  font-size: 24px;
+  color: #ca444a;
+}
+
+.contact-info {
+  margin-left: 15px;
+}
+
+.contact-info h3 {
+  color: #fff;
+  margin-bottom: 5px;
+}
+
+.contact-info p {
+  color: #878787;
+}
+
+.copyright {
+  padding: 20px 0;
+  background: #202020;
+  color: #878787;
+  font-size: 14px;
+  text-align: center; /* Centrar texto de copyright */
+}

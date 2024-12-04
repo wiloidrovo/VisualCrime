@@ -1,0 +1,46 @@
+/* Estilos para el componente Login */
+body {
+  background-color: #121212; /* Fondo oscuro */
+}
+
+.login-left {
+  background-color: #333; /* Fondo oscuro para la sección izquierda */
+  padding: 20px;
+}
+
+.text-white {
+  color: #fff !important;
+}
+
+.btn-info {
+  background-color: #009dff;
+  border-color: #009dff;
+}
+
+.btn-info:hover {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+a.link-info {
+  color: #00bcd4;
+  text-decoration: none;
+}
+
+a.link-info:hover {
+  color: #007bff;
+  text-decoration: underline;
+}
+
+.form-control {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #444;
+}
+
+.form-control:focus {
+  background-color: #333;
+  color: #fff;
+  border: 1px solid #00bcd4;
+  box-shadow: none;
+}
